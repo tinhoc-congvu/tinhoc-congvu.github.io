@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<presentation availableOffline="1" guid="C359F20C-168F-4F3F-87CA-3E210ACDA402" version="0">
+	<info>
+		<title>Test_Lesson05</title>
+		<description/>
+	</info>
+	<files index="id26" thumbnail="id22" totalSize="2967880">
+		<file id="id0">data/apple-touch-icon.png</file>
+		<file id="id1">data/audios/snd-5544a2db0cfb46cd413246b497c4221ce53e615b.mp3</file>
+		<file id="id2">data/audios/snd-dc59051ddd6ea48527c2fb098e16015257673561.mp3</file>
+		<file id="id3">data/browsersupport.js</file>
+		<file id="id4">data/favicon.ico</file>
+		<file id="id5">data/fonts/fnt0.woff</file>
+		<file id="id6">data/fonts/fnt1.woff</file>
+		<file id="id7">data/fonts/fnt2.woff</file>
+		<file id="id8">data/fonts/fnt3.woff</file>
+		<file id="id9">data/fonts/fnt4.woff</file>
+		<file id="id10">data/html5-unsupported.html</file>
+		<file id="id11">data/html5.png</file>
+		<file id="id12">data/images/img-2d5fe84625dc7f7ed65d65a6f2e0a52cd4575bfb.jpg</file>
+		<file id="id13">data/images/img-63a6958de320d8fd592670813e8507063f206eab.jpg</file>
+		<file id="id14">data/images/img-68eb763fcbbb74f95244c4427edeef1f365eef4c.png</file>
+		<file id="id15">data/images/img-736705c40c216f24d4ad693f3852254df32a7f3f.png</file>
+		<file id="id16">data/images/img-874f424febf03068000e64a994159ee0a2d9da93.png</file>
+		<file id="id17">data/images/img-914f88850006a2306fa97ace9d7d612475a139a1.gif</file>
+		<file id="id18">data/images/img-b25638b95e58f2397af2f9f2d190b539d3e23467.jpg</file>
+		<file id="id19">data/images/img-fc707e6e09eefe55635287f28d6d5292b43582fe.gif</file>
+		<file id="id20">data/ismplayer/app_store2x.png</file>
+		<file id="id21">data/ismplayer/play.svg</file>
+		<file id="id22">data/ismplayer/preview.png</file>
+		<file id="id23">data/ismplayer/style.css</file>
+		<file id="id24">data/ismplayer/style_mini.css</file>
+		<file id="id25">data/player.js</file>
+		<file id="id26">index.html</file>
+		<file id="id27">ismplayer.html</file>
+		<file id="id28">preview.png</file>
+	</files>
+</presentation>
+
