@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<presentation availableOffline="1" guid="D6AB1A7C-0E37-4009-978D-FF92D38040FA" version="0">
+	<info>
+		<title>Test_Lesson03</title>
+		<description/>
+	</info>
+	<files index="id37" thumbnail="id33" totalSize="4140104">
+		<file id="id0">data/apple-touch-icon.png</file>
+		<file id="id1">data/audios/snd-5544a2db0cfb46cd413246b497c4221ce53e615b.mp3</file>
+		<file id="id2">data/audios/snd-dc59051ddd6ea48527c2fb098e16015257673561.mp3</file>
+		<file id="id3">data/browsersupport.js</file>
+		<file id="id4">data/favicon.ico</file>
+		<file id="id5">data/fonts/fnt0.woff</file>
+		<file id="id6">data/fonts/fnt1.woff</file>
+		<file id="id7">data/fonts/fnt2.woff</file>
+		<file id="id8">data/fonts/fnt3.woff</file>
+		<file id="id9">data/fonts/fnt4.woff</file>
+		<file id="id10">data/html5-unsupported.html</file>
+		<file id="id11">data/html5.png</file>
+		<file id="id12">data/images/img-375b61200eb12fa224b3c5e18b60ceef82e6d136.jpg</file>
+		<file id="id13">data/images/img-38c55ad54d2b1bc702cf2d247a8423bd90e7bdb5.gif</file>
+		<file id="id14">data/images/img-390b630a3e8bd8b0a1119b4bdca6a325fa752ae7.jpg</file>
+		<file id="id15">data/images/img-472c878f58b4fcd010346c8a7ea0355bb068c1f4.jpg</file>
+		<file id="id16">data/images/img-487bf08ef50c588aaf7a8f42b67a7cac2c3b0484.jpg</file>
+		<file id="id17">data/images/img-4aa2dfaead1342b5a03b8eb48a16f84260fedbc7.gif</file>
+		<file id="id18">data/images/img-4addff0a3842479365524a828a0eee0e0060e27a.jpg</file>
+		<file id="id19">data/images/img-63a6958de320d8fd592670813e8507063f206eab.jpg</file>
+		<file id="id20">data/images/img-68454abfa86d02b9d4dfc0d6230b2da20d03ef0a.jpg</file>
+		<file id="id21">data/images/img-84830286b60c57d3c6926af8ae5f28223382ac38.jpg</file>
+		<file id="id22">data/images/img-874f424febf03068000e64a994159ee0a2d9da93.png</file>
+		<file id="id23">data/images/img-914f88850006a2306fa97ace9d7d612475a139a1.gif</file>
+		<file id="id24">data/images/img-91906f4f38e0d32d6208d9bb8bd7f203ab8dd811.jpg</file>
+		<file id="id25">data/images/img-93b8b9fb7716b2834280f020df6415fb755aa28c.jpg</file>
+		<file id="id26">data/images/img-aa5ac7de757618c9ab6ce5e5e7aab2d1164390f4.jpg</file>
+		<file id="id27">data/images/img-b6c7e7fc4aa1ddb0f3736506fb3217c53c437bb0.jpg</file>
+		<file id="id28">data/images/img-cb2caa7b6f17ae7b9bb11376e995a7e9a1fb6008.jpg</file>
+		<file id="id29">data/images/img-e1aa0c66df64914eed329c63333ed4508e9f3ac7.jpg</file>
+		<file id="id30">data/images/img-fc707e6e09eefe55635287f28d6d5292b43582fe.gif</file>
+		<file id="id31">data/ismplayer/app_store2x.png</file>
+		<file id="id32">data/ismplayer/play.svg</file>
+		<file id="id33">data/ismplayer/preview.png</file>
+		<file id="id34">data/ismplayer/style.css</file>
+		<file id="id35">data/ismplayer/style_mini.css</file>
+		<file id="id36">data/player.js</file>
+		<file id="id37">index.html</file>
+		<file id="id38">ismplayer.html</file>
+		<file id="id39">preview.png</file>
+	</files>
+</presentation>
+
