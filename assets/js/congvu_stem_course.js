@@ -787,7 +787,14 @@ function renderListLesson(dataRender){
                                 + "<i class=\"fa-solid fa-pen-to-square\"></i>&nbsp;"
                                 + "Đánh Giá"
                                 + "</span>"
-                                + "</button>"                               
+                                + "</button>"
+                                + "&nbsp;&nbsp;"
+                                + "<button id=\"btn-donation\" onclick=\"donationCourse()\">"
+                                + "<span style=\"font-weight: normal; font-style: italic;\">"
+                                + "<i class=\"fa-solid fa-circle-dollar-to-slot\"></i>&nbsp;"
+                                + "Donation"
+                                + "</span>"
+                                + "</button>"
                                 + "</h2></div></div>";
     
                                 htmlFooter = htmlFooter
@@ -914,4 +921,9 @@ function runToCourse(idCourse, yourUsername){
 
 function evaluationCourse(){
     window.open(getCookie("link_EvaluationCourse"), '_blank');
-  }
+}
+
+function donationCourse(){
+    window.open("https://tinhoc-congvu.github.io/donation.html", '_blank');
+    //window.open("http://localhost/tinhoc-congvu.github.io-main/donation.html", '_blank');
+}
