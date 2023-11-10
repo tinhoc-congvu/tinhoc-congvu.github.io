@@ -109,7 +109,7 @@ function renderNewsByID(idNews){
         }
     }
     data = dataByIdNews;
-    renderToWebsite(dataByIdNews);
+    renderToWebsite(dataByIdNews, 1);
 }
 
 
@@ -135,7 +135,7 @@ function renderHotNews(){
         numberPage = (data.length - data.length%6)/6 + 1;
         currentPage = 1;
     }
-    renderToWebsite(dataHotNews);
+    renderToWebsite(dataHotNews, currentPage);
 }
 
 function showResultOfSearch(){
@@ -186,7 +186,7 @@ function showResultOfSearch(){
     
     dataSearchRender = [];
     if(dataSearch.length > 0 && dataSearch.length <=6){
-        renderToWebsite(dataSearch);
+        renderToWebsite(dataSearch, currentPage);
         addContentPagination(currentPage);
     }
     else if(dataSearch.length > 6){ //Render cho trang 1
@@ -196,26 +196,27 @@ function showResultOfSearch(){
         dataSearchRender.push(dataSearch[3]);
         dataSearchRender.push(dataSearch[4]);
         dataSearchRender.push(dataSearch[5]);
-        renderToWebsite(dataSearchRender);
+        renderToWebsite(dataSearchRender, currentPage);
         addContentPagination(currentPage);
     }
     else{
-        renderToWebsite(dataSearch);
+        renderToWebsite(dataSearch, currentPage);
         addContentPagination(currentPage);
     }
 }
 
-function renderToWebsite(dataRender){
+function renderToWebsite(dataRender, currentPage){
     htmlListInfo = "";
     htmlTitleInfo = "";
     htmlContactInfo = "";
     lengthOfDataRender = dataRender.length - 1;
+    currentPage = currentPage - 1;  //Decrease 1 for current page
 
     for(var count = 0; count < lengthOfDataRender; count=count+2){
         htmlListInfo = htmlListInfo + "<div class=\"row\">"
 
                                     + "<div class=\"col-md-6 col-sm-12 col-12\">"
-                                    + "<a href=\"#info" + String(count+1) + "\" onclick=\"modalInfoRender(" + String(count+1) + ")\">"
+                                    + "<a href=\"#info" + String(count+1) + "\" onclick=\"modalInfoRender(" + String(currentPage*6 + count + 1) + ")\">"
                                     + "<div id=\"info" + String(count+1) + "\" class=\"card-box-c foo row\">"
                                     + "<div class=\"col-md-12 col-sm-12 col-12 card-header-c\">"
                                     + "<img class=\"img-header\" src=\"" + dataRender[count]['image1'] + "\">" + "</div>"
@@ -250,7 +251,7 @@ function renderToWebsite(dataRender){
                                     + "</div>"
 
                                     + "<div class=\"col-md-6 col-sm-12 col-12\">"
-                                    + "<a href=\"#info" + String(count+2) + "\" onclick=\"modalInfoRender(" + String(count+2) + ")\">"
+                                    + "<a href=\"#info" + String(count+2) + "\" onclick=\"modalInfoRender(" + String(currentPage*6 + count + 2) + ")\">"
                                     + "<div id=\"info" + String(count+2) + "\" class=\"card-box-c foo row\">"
                                     + "<div class=\"col-md-12 col-sm-12 col-12 card-header-c\">"
                                     + "<img class=\"img-header\" src=\"" + dataRender[count+1]['image1'] + "\">" + "</div>"
@@ -290,7 +291,7 @@ function renderToWebsite(dataRender){
     if(dataRender.length%2 != 0){
         htmlListInfo = htmlListInfo + "<div class=\"row\">"
                                     + "<div class=\"col-md-6 col-sm-12 col-12\">"
-                                    + "<a href=\"#info" + String(lengthOfDataRender+1) + "\" onclick=\"modalInfoRender(" + String(lengthOfDataRender+1) + ")\">"
+                                    + "<a href=\"#info" + String(lengthOfDataRender+1) + "\" onclick=\"modalInfoRender(" + String(currentPage*6 + lengthOfDataRender + 1) + ")\">"
                                     + "<div id=\"info" + String(lengthOfDataRender+1) + "\" class=\"card-box-c foo row\">"
                                     + "<div class=\"col-md-12 col-sm-12 col-12 card-header-c\">"
                                     + "<img class=\"img-header\" src=\"" + dataRender[lengthOfDataRender]['image1'] + "\">" + "</div>"
@@ -371,7 +372,7 @@ function renderToWebsite(dataRender){
     
 }
 
-//Render button Pagnination
+//Render button Pagination
 function addContentPagination(page){
     htmlPagination = "";
     htmlPagination = htmlPagination + "<button onclick=\"gotoPage(" + String(-2) + ")\">&laquo;</button>";
@@ -403,7 +404,7 @@ function gotoPage(page){
         for(var count = startItem; count < endItem; count++){
             dataRenderInfo.push(data[count]);
         }       
-        renderToWebsite(dataRenderInfo);
+        renderToWebsite(dataRenderInfo, currentPage);
         addContentPagination(currentPage);   
       }
       else{
@@ -423,7 +424,7 @@ function gotoPage(page){
         for(var count = startItem; count < endItem; count++){
             dataRenderInfo.push(data[count]);
         }       
-        renderToWebsite(dataRenderInfo);
+        renderToWebsite(dataRenderInfo, currentPage);
         addContentPagination(currentPage);
       }
       else{
@@ -444,7 +445,7 @@ function gotoPage(page){
       for(var count = startItem; count < endItem; count++){
         dataRenderInfo.push(data[count]);
       }
-      renderToWebsite(dataRenderInfo);
+      renderToWebsite(dataRenderInfo, currentPage);
       addContentPagination(currentPage);
     }
     
