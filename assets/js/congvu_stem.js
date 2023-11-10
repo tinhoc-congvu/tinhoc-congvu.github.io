@@ -208,7 +208,7 @@ function showResultOfSearch(){
 function renderToWebsite(dataRender){
     htmlListInfo = "";
     htmlTitleInfo = "";
-    htmlContactInfo = ""
+    htmlContactInfo = "";
     lengthOfDataRender = dataRender.length - 1;
 
     for(var count = 0; count < lengthOfDataRender; count=count+2){
