@@ -1,3 +1,13 @@
+/**
+* Template Name: EstateAgency - v4.9.1
+* Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
   /*font-family: "Poppins", sans-serif;*/
   font-family: Arial, Helvetica, sans-serif;
@@ -201,6 +211,14 @@ a:hover {
   object-fit:cover;
 }
 
+.game {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 600px;
+}
+
 /* Position the image container (needed to position the left and right arrows) */
 .modal-container {
   position: relative;
@@ -217,6 +235,25 @@ a:hover {
 }
 
 @media (max-width: 1920px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+    text-align: center !important;
+    /* position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+    height: 500px;
+    text-rendering: optimizeLegibility;
+    box-sizing: inherit;
+    overflow: clip !important; */
+  }
   .mySlides {
     display: none;
     width: 100%;
@@ -257,6 +294,15 @@ a:hover {
 }
 
 @media (max-width: 1120px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 700px;
+    text-align: center !important;
+  }
   .img-header-lecturers{  
     max-height: 80%;
     max-width: 80%;
@@ -281,6 +327,15 @@ a:hover {
 }
 
 @media (max-width: 991px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 650px;
+    text-align: center !important;
+  }
   .mySlides {
     display: none;
     width: 100%;
@@ -315,6 +370,15 @@ a:hover {
 }
 
 @media (max-width: 891px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+    text-align: center !important;
+  }
   .mySlides {
     display: none;
     width: 100%;
@@ -339,6 +403,15 @@ a:hover {
 }
 
 @media (max-width: 797px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 550px;
+    text-align: center !important;
+  }
   .mySlides {
     display: none;
     width: 100%;
@@ -356,6 +429,15 @@ a:hover {
 }
 
 @media (max-width: 707px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    text-align: center !important;
+  }
   .mySlides {
     display: none;
     width: 100%;
@@ -368,6 +450,15 @@ a:hover {
 }
 
 @media (max-width: 669px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    height: 420px;
+    text-align: center !important;
+  }
   .mySlides {
     display: none;
     width: 100%;
@@ -419,7 +510,28 @@ a:hover {
   }
 }
 
+@media (max-width: 525px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 380px;
+    text-align: center !important;
+  }
+}
+
 @media (max-width: 485px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    height: 330px;
+    text-align: center !important;
+  }
   .mySlides {
     display: none;
     width: 100%;
@@ -446,6 +558,15 @@ a:hover {
 }
 
 @media (max-width: 427px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    text-align: center !important;
+  }
   .mySlides {
     display: none;
     width: 100%;
@@ -482,6 +603,15 @@ a:hover {
 }
 
 @media (max-width: 393px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 280px;
+    text-align: center !important;
+  }
   .mySlides {
     display: none;
     width: 100%;
@@ -508,6 +638,15 @@ a:hover {
 }
 
 @media (max-width: 360px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    height: 210px;
+    text-align: center !important;
+  }
   .mySlides {
     display: none;
     width: 100%;
@@ -543,6 +682,15 @@ a:hover {
 }
 
 @media (max-width: 280px) {
+  .game {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    text-align: center !important;
+  }
   .title-box .title-a {
     font-size: 1.2rem !important;
     font-weight: 600 !important;
@@ -3068,18 +3216,6 @@ footer .credits {
 }
 
 #btn-evaluation:hover{
-  background-color: #558a51;
-  border: #558a51;
-}
-
-#btn-donation{
-  border-radius: 6px;
-  color: #ffffff;
-  background-color: #2504e0;
-  border: #2504e0;
-}
-
-#btn-donation:hover{
-  background-color: #5e44f1;
-  border: #5e44f1;
+  background-color: #e09304;
+  border: #e09304;
 }
