@@ -3219,3 +3219,15 @@ footer .credits {
   background-color: #e09304;
   border: #e09304;
 }
+
+#btn-donation{
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #2504e0;
+  border: #2504e0;
+}
+
+#btn-donation:hover{
+  background-color: #5e44f1;
+  border: #5e44f1;
+}
