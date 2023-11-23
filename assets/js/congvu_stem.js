@@ -337,7 +337,7 @@ function renderToWebsite(dataRender, currentPage){
                     
         htmlContactInfo = htmlContactInfo
                                     + "<span style=\"font-size: 2rem; font-weight: bold; color: #000000\">"
-                                    + "Tin học"
+                                    + "Tin Học"
                                     + "</span>&nbsp;"
                                     + "<span style=\"font-size: 2rem; font-weight: bold; color: #2717F1\">"
                                     + "Công Vũ"
@@ -357,7 +357,7 @@ function renderToWebsite(dataRender, currentPage){
                                     + "</h2></div></div>";        
         htmlContactInfo = htmlContactInfo
                                     + "<span style=\"font-size: 2rem; font-weight: bold; color: #000000\">"
-                                    + "Tin học"
+                                    + "Tin Học"
                                     + "</span>&nbsp;"
                                     + "<span style=\"font-size: 2rem; font-weight: bold; color: #2717F1\">"
                                     + "Công Vũ"
