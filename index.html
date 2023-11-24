@@ -214,23 +214,29 @@
       var htmlModalInfoContent = "";
       var linkYoutube = data[indexInfo]['linkyoutube'];
       idNews = data[indexInfo]['code'];
-if(data[indexInfo]['type'] == "Header"){
-        if(data[indexInfo]['linkyoutube'] != ""){
-          htmlModalInfoContent = htmlModalInfoContent + "<div class=\"mySlides\">"
-                                                      + "<iframe width=\"100%\" height=\"100%\" src=\""
-                                                      + linkYoutube
-                                                      + "\" title=\"Video Youtube - CongVu STEM\""
-                                                      + "frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
-                                                      + "</iframe>"
+      if(data[indexInfo]['type'] == "Link-To-Do"){
+        if(data[indexInfo]['linktodo'] != ""){
+          window.open(data[indexInfo]['linktodo'],'_blank');
+        }
+      }
+      else{
+        if(data[indexInfo]['type'] == "Header"){
+          if(data[indexInfo]['linkyoutube'] != ""){
+            htmlModalInfoContent = htmlModalInfoContent + "<div class=\"mySlides\">"
+                                                        + "<iframe width=\"100%\" height=\"100%\" src=\""
+                                                        + linkYoutube
+                                                        + "\" title=\"Video Youtube - CongVu STEM\""
+                                                        + "frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
+                                                        + "</iframe>"
+                                                        + "</div>";
+          }
+          else{
+            htmlModalInfoContent = htmlModalInfoContent + "<div class=\"mySlides\">"
+                                                      + "<img src=\""
+                                                      + data[indexInfo]['image1']
+                                                      + "\">"                                                  
                                                       + "</div>";
-        }
-        else{
-          htmlModalInfoContent = htmlModalInfoContent + "<div class=\"mySlides\">"
-                                                    + "<img src=\""
-                                                    + data[indexInfo]['image1']
-                                                    + "\">"                                                  
-                                                    + "</div>";
-        }
+          }
           htmlModalInfoContent = htmlModalInfoContent + "<div class=\"modal-content-header\">"
 
                                                       + "<h2>" + data[indexInfo]['title'] + "</h2>"
@@ -265,42 +271,43 @@ if(data[indexInfo]['type'] == "Header"){
                                                       + "</div>"
 
                                                       + "</div>";
-      }
-      else{
-        //When No-Header
-        htmlModalInfoContent = htmlModalInfoContent + "<div class=\"modal-content-header\" style=\"padding-top: ; text-align : center !important;\">"
+        }
+        else{
+          //When No-Header
+          htmlModalInfoContent = htmlModalInfoContent + "<div class=\"modal-content-header\" style=\"padding-top: ; text-align : center !important;\">"
 
-                                                    + "<h2>" + data[indexInfo]['title'] + "</h2>"
-                                                    + "<p class=\"info-item-header\">"
-                                                                                                      
-                                                    + "<span style=\"color: #4864ed;\">"
-                                                    + "<i class=\"fa-solid fa-book\"></i>&nbsp;"
-                                                    + "</span>"
+                                                      + "<h2>" + data[indexInfo]['title'] + "</h2>"
+                                                      + "<p class=\"info-item-header\">"
+                                                                                                        
+                                                      + "<span style=\"color: #4864ed;\">"
+                                                      + "<i class=\"fa-solid fa-book\"></i>&nbsp;"
+                                                      + "</span>"
 
-                                                    + data[indexInfo]['subject']
+                                                      + data[indexInfo]['subject']
 
-                                                    + "&nbsp;&nbsp;<span style=\"color: #d7b107;\">"
-                                                    + "<i class=\"fa-solid fa-medal\"></i>&nbsp;"
-                                                    + "</span>"
-                                                    + data[indexInfo]['code']
-                                                    + "&nbsp; &nbsp; &nbsp;"
-                                                    
-                                                    + "<button style=\"border:none;\" onclick=\"shareNews()\">"
-                                                    + "<span style=\"color: #1877F2; font-weight: bold;\">"
-                                                    + "<i class=\"fa-solid fa-square-share-nodes\"></i>&nbsp;"                                                  
-                                                    + "Chia Sẻ"
-                                                    + "</span>"
-                                                    + "</button>"
+                                                      + "&nbsp;&nbsp;<span style=\"color: #d7b107;\">"
+                                                      + "<i class=\"fa-solid fa-medal\"></i>&nbsp;"
+                                                      + "</span>"
+                                                      + data[indexInfo]['code']
+                                                      + "&nbsp; &nbsp; &nbsp;"
+                                                      
+                                                      + "<button style=\"border:none;\" onclick=\"shareNews()\">"
+                                                      + "<span style=\"color: #1877F2; font-weight: bold;\">"
+                                                      + "<i class=\"fa-solid fa-square-share-nodes\"></i>&nbsp;"                                                  
+                                                      + "Chia Sẻ"
+                                                      + "</span>"
+                                                      + "</button>"
 
-                                                    + "</p>"                                                  
-                                                    + data[indexInfo]['postcontent']                                                  
-                                                    + "</div>";
-        }     
+                                                      + "</p>"                                                  
+                                                      + data[indexInfo]['postcontent']                                                  
+                                                      + "</div>";
+          }     
         
-      document.getElementById("myModalContent").innerHTML = htmlModalInfoContent;
-      modal.style.display = "block";
-      showSlides(slideIndex = 1);
-      document.getElementById("navbarBDS").style.display = "none";
+          document.getElementById("myModalContent").innerHTML = htmlModalInfoContent;
+          modal.style.display = "block";
+          showSlides(slideIndex = 1);
+          document.getElementById("navbarBDS").style.display = "none";
+      }
     }
     
 
