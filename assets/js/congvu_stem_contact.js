@@ -47,57 +47,57 @@ function init4() {
 }
 
 function renderContactInfo(data){    
-    htmlMainContactInfoCongVu = ""
-    htmlMainContactInfoCongVu = htmlMainContactInfoCongVu
-                    + "<div class=\"row contact-CongVu\">"
-                    + "<div class=\"col-md-4 col-sm-4 col-12\">"
-                    + "<img class=\"img-contact-CongVu\" src=\""
-                    + data[0]['linkavatar']
-                    + "\">"
-                    + "</div>"
-                    + "<div class=\"col-md-8 col-sm-8 col-12 introduce-CongVu\">"
-                    + "<h2>"
-                    + data[0]['title']
-                    + "</h2>"
-                    +"<p>"
-                    + data[0]['description']
-                    + "</p>"
-                    + "</div>"
-                    + "</div>"
-                    + "<div class=\"row social-CongVu\">"
+    // htmlMainContactInfoCongVu = ""
+    // htmlMainContactInfoCongVu = htmlMainContactInfoCongVu
+    //                 + "<div class=\"row contact-CongVu\">"
+    //                 + "<div class=\"col-md-4 col-sm-4 col-12\">"
+    //                 + "<img class=\"img-contact-CongVu\" src=\""
+    //                 + data[0]['linkavatar']
+    //                 + "\">"
+    //                 + "</div>"
+    //                 + "<div class=\"col-md-8 col-sm-8 col-12 introduce-CongVu\">"
+    //                 + "<h2>"
+    //                 + data[0]['title']
+    //                 + "</h2>"
+    //                 +"<p>"
+    //                 + data[0]['description']
+    //                 + "</p>"
+    //                 + "</div>"
+    //                 + "</div>"
+    //                 + "<div class=\"row social-CongVu\">"
                     
-                    + "<div class=\"col-md-4 col-sm-4 col-4\">"
-                    + "<a target=\"_blank\" href=\""
-                    + data[0]['linkyoutube']
-                    + "\">"
-                    + "<img class=\"img-social-CongVu\" src=\""
-                    + data[0]['imageyoutube']
-                    + "\">"
-                    + "</a>"
-                    + "</div>"
+    //                 + "<div class=\"col-md-4 col-sm-4 col-4\">"
+    //                 + "<a target=\"_blank\" href=\""
+    //                 + data[0]['linkyoutube']
+    //                 + "\">"
+    //                 + "<img class=\"img-social-CongVu\" src=\""
+    //                 + data[0]['imageyoutube']
+    //                 + "\">"
+    //                 + "</a>"
+    //                 + "</div>"
                     
-                    + "<div class=\"col-md-4 col-sm-4 col-4\">"
-                    + "<a target=\"_blank\" href=\""
-                    + data[0]['linktiktok']
-                    + "\">"
-                    + "<img class=\"img-social-CongVu\" src=\""
-                    + data[0]['imagetiktok']
-                    + "\">"
-                    + "</a>"
-                    + "</div>"
+    //                 + "<div class=\"col-md-4 col-sm-4 col-4\">"
+    //                 + "<a target=\"_blank\" href=\""
+    //                 + data[0]['linktiktok']
+    //                 + "\">"
+    //                 + "<img class=\"img-social-CongVu\" src=\""
+    //                 + data[0]['imagetiktok']
+    //                 + "\">"
+    //                 + "</a>"
+    //                 + "</div>"
 
                     
-                    + "<div class=\"col-md-4 col-sm-4 col-4\">"
-                    + "<a target=\"_blank\" href=\""
-                    + data[0]['linkfacebook']
-                    + "\">"
-                    + "<img class=\"img-social-CongVu\" src=\""
-                    + data[0]['imagefacebook']
-                    + "\">"
-                    + "</a>"
-                    + "</div>"
+    //                 + "<div class=\"col-md-4 col-sm-4 col-4\">"
+    //                 + "<a target=\"_blank\" href=\""
+    //                 + data[0]['linkfacebook']
+    //                 + "\">"
+    //                 + "<img class=\"img-social-CongVu\" src=\""
+    //                 + data[0]['imagefacebook']
+    //                 + "\">"
+    //                 + "</a>"
+    //                 + "</div>"
                     
-                    + "</div>";
+    //                 + "</div>";
 
-    document.getElementById("main").innerHTML = htmlMainContactInfoCongVu;
+    // document.getElementById("main").innerHTML = htmlMainContactInfoCongVu;
 }
