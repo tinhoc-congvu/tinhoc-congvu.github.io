@@ -792,7 +792,7 @@ function renderListLesson(dataRender){
                                 + "<button id=\"btn-donation\" onclick=\"donationCourse()\">"
                                 + "<span style=\"font-weight: normal; font-style: italic;\">"
                                 + "<i class=\"fa-solid fa-circle-dollar-to-slot\"></i>&nbsp;"
-                                + "Donation"
+                                + "Donate"
                                 + "</span>"
                                 + "</button>"
                                 + "</h2></div></div>";
